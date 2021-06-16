@@ -1,10 +1,15 @@
 <template>
- <h1 className="test">test</h1> 
+  <div>
+    <Header /> 
+  </div> 
 </template>
 
 <script>
+import Header from './components/Header.vue';
+import './App.css'
 export default {
   name: 'App',
+  components: { Header },
 }
 </script>
 
