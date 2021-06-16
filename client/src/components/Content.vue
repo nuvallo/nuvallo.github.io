@@ -12,6 +12,7 @@ export default {
 
 <style>
 .content-container {
+    background-color: #EEFBFB;
     width: 100%;
     text-align: center;
 }
