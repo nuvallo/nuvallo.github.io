@@ -6,12 +6,14 @@
       </div>
       <div className="box">
           <h1>Skills</h1>
-          <ul>
+          <ul className="skills">
               <li>Javascript</li>
               <li>Python</li>
               <li>React</li>
+              <li>Vue</li>
               <li>NodeJS</li>
-              <li>SQL</li>
+              <li>Express</li>
+              <li>GNU/Linux</li>
           </ul>
       </div>
       <div className="box">
@@ -48,6 +50,7 @@ export default {
 
 .box h1 {
     font-size: 25px;
+    margin-bottom: 1%;
 }
 
 .box ul {
@@ -56,5 +59,19 @@ export default {
 
 .box ul li {
     padding: 1%;
+}
+
+.box p {
+    line-height: 1.5;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skills li {
+    margin: 2%;
+    border: 2px solid #fff;
 }
 </style>

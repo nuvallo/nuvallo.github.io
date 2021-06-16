@@ -21,7 +21,7 @@ export default {
 .header {
     background-color: #007cc7;
     color: #fff;
-    padding: 5%;
+    padding: 3%;
 }
 
 .header h1 {
