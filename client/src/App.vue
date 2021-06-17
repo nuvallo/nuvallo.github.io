@@ -3,7 +3,7 @@
     <Header />
     <div className="grid">
       <Sidebar />
-      <Content/>
+      <Content v-bind:experiences="experience" v-bind:educations="education" v-bind:projects="projects"/>
     </div>
   </div>
 </template>
@@ -18,8 +18,8 @@ export default {
    data() {
     return {
       experience: [],
-      // education: [],
-      // projects: []
+      education: [],
+      projects: []
     }
   },
   created() {
@@ -43,11 +43,13 @@ export default {
         description: 'I maintained the vehicles exterior and interior and other maintenance.'
       }],
     this.education = [{
+        id: 1,
         title: 'Oakleaf High School',
         degree: 'diploma',
         year: '2019'
       }],
     this.projects = [{
+        id: 1,
         title: 'Just Smash It',
         framework: 'ReactJS, Material-UI',
         description: 'Just Smash It Rage Rooms was my first client to build a front end website with React that was responsive for mobile, ipad, and desktop.'
@@ -68,5 +70,6 @@ export default {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  height: 100%;
 }
 </style>

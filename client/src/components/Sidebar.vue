@@ -45,7 +45,7 @@ export default {
 }
 
 .box {
-    padding: 5%;
+    padding: 17% 5%;
 }
 
 .box h1 {
