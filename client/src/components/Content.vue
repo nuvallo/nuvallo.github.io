@@ -1,7 +1,10 @@
 <template>
   <div className="content-container">
       <div className="container">
-          <h1>Experience</h1>
+          <div className="content-icon-container">
+              <i class="fas fa-suitcase fa-2x"></i>
+              <h1>Experience</h1>
+          </div> 
           <ul v-bind:key="experience.id" v-for="experience in experiences">
               <li><h2>{{experience.title}}</h2></li>
               <li><h3>{{experience.job}}</h3></li>
@@ -10,9 +13,10 @@
           </ul>
       </div>
       <div className="container">
-          <h1>
-              Education
-          </h1>
+          <div className="content-icon-container">
+              <i class="fas fa-graduation-cap fa-2x"></i>
+              <h1>Education</h1>
+          </div>
           <ul v-bind:key="education.id" v-for="education in educations">
               <li><h2>{{education.title}}</h2></li>
               <li><h3>{{education.degree}}</h3></li>
@@ -20,9 +24,10 @@
           </ul>
       </div>
        <div className="container">
-          <h1>
-             Projects 
-          </h1>
+           <div className="content-icon-container">
+               <i class="fas fa-code fa-2x"></i>
+              <h1>Projects</h1>
+          </div>
           <ul v-bind:key="project.id" v-for="project in projects">
               <li><h2>{{project.title}}</h2></li>
               <li><h3>{{project.framework}}</h3></li>
@@ -40,6 +45,11 @@ export default {
 </script>
 
 <style>
+.content-icon-container {
+    display: flex;
+    flex-direction: row;
+}
+
 .content-container {
     background-color: #EEFBFB;
     width: 100%;
@@ -54,7 +64,8 @@ export default {
 
 .container h1 {
     font-size: 30px;
-    padding-bottom: 2%;
+    padding: 1%;
+
 }
 
 .container ul {

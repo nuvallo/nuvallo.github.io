@@ -1,10 +1,10 @@
 <template>
   <div className="sidebar-container">
-      <div className="box">
+      <div className="sidebar-box">
           <h1>About me</h1>
           <p>I was born in Jacksonville, Florida and currently live in Orange Park, Florida. When i was young I grew a huge passion for technology. I would spend my time playing around with computers, ipods, and other devices learning how they operate. After working a couple jobs in autmotive I quickly learned it wasn't for me and that I needed to surround myself with technology. I started self teaching myself programming and other technologies such as Linux and other operating systems. I am now a year into my growth and I love every minute I spend in font of my computer. </p>
       </div>
-      <div className="box">
+      <div className="sidebar-box">
           <h1>Skills</h1>
           <ul className="skills">
               <li>Javascript</li>
@@ -17,7 +17,7 @@
               <li>Adobe Software</li>
           </ul>
       </div>
-      <div className="box">
+      <div className="sidebar-box">
           <h1>Contact</h1>
           <ul>
               <li>Vexiiry@gmail.com</li>
@@ -54,24 +54,24 @@ export default {
     justify-content: center;
 }
 
-.box {
+.sidebar-box {
     padding: 17% 5%;
 }
 
-.box h1 {
+.sidebar-box h1 {
     font-size: 30px;
     margin-bottom: 1%;
 }
 
-.box ul {
+.sidebar-box ul {
     list-style: none;
 }
 
-.box ul li {
+.sidebar-box ul li {
     padding: 1%;
 }
 
-.box p {
+.sidebar-box p {
     line-height: 1.5;
 }
 

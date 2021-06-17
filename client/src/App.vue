@@ -64,7 +64,7 @@ export default {
 @media (max-width: 761px) {
   .grid { 
     display: flex !important;
-    flex-direction: column !important; 
+    flex-direction: column-reverse !important; 
   }
 }
 #app {
