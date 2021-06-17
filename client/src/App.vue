@@ -61,6 +61,12 @@ export default {
 </script>
 
 <style>
+@media (max-width: 761px) {
+  .grid { 
+    display: flex !important;
+    flex-direction: column !important; 
+  }
+}
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

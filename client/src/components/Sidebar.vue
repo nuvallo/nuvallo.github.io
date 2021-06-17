@@ -2,7 +2,7 @@
   <div className="sidebar-container">
       <div className="box">
           <h1>About me</h1>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+          <p>I was born in Jacksonville, Florida and currently live in Orange Park, Florida. When i was young I grew a huge passion for technology. I would spend my time playing around with computers, ipods, and other devices learning how they operate. After working a couple jobs in autmotive I quickly learned it wasn't for me and that I needed to surround myself with technology. I started self teaching myself programming and other technologies such as Linux and other operating systems. I am now a year into my growth and I love every minute I spend in font of my computer. </p>
       </div>
       <div className="box">
           <h1>Skills</h1>
@@ -14,6 +14,7 @@
               <li>NodeJS</li>
               <li>Express</li>
               <li>GNU/Linux</li>
+              <li>Adobe Software</li>
           </ul>
       </div>
       <div className="box">
@@ -34,6 +35,14 @@ export default {
 </script>
 
 <style>
+@media (max-width: 761px) {
+ .sidebar-container {
+    width: 100% !important;
+ } 
+ .box {
+    padding: 10% 5% !important;
+ }
+}
 .sidebar-container {
     background-color: #12232E;
     color: #fff;
@@ -49,7 +58,7 @@ export default {
 }
 
 .box h1 {
-    font-size: 25px;
+    font-size: 30px;
     margin-bottom: 1%;
 }
 
