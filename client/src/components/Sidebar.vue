@@ -48,14 +48,13 @@ export default {
     background-color: #12232E;
     color: #fff;
     width: 80%;
-    height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    
 }
 
 .sidebar-box {
-    padding: 17% 5%;
+    padding: 5%;
 }
 
 .sidebar-box h1 {

@@ -53,6 +53,12 @@ export default {
         title: 'Just Smash It',
         framework: 'ReactJS, Material-UI',
         description: 'Just Smash It Rage Rooms was my first client to build a front end website with React that was responsive for mobile, ipad, and desktop.'
+      },
+      {
+        id: 2,
+        title: 'Resume',
+        framework: 'VueJS',
+        description: 'Created my entire resume front end using vue.'
       }]
   },
   name: 'App',
