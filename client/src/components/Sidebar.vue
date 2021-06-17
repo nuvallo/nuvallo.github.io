@@ -22,8 +22,9 @@
           <ul>
               <li>Vexiiry@gmail.com</li>
               <li>904-718-3071</li>
-              <li>Nuvallo</li>
           </ul>
+          <a className="icon" href="https://github.com/nuvallo" target="_blank"><i class="fab fa-github fa-2x icon"></i></a>
+          <a className="icon" href="https://www.linkedin.com/feed/?trk=homepage-basic_signin-form_submit" target="_blank"><i class="fab fa-linkedin fa-2x icon"></i></a>
       </div>
   </div>
 </template>
@@ -82,5 +83,10 @@ export default {
 .skills li {
     margin: 2%;
     border: 2px solid #fff;
+}
+
+.icon {
+    padding: 1%;
+    color: #fff;
 }
 </style>
