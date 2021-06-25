@@ -2,7 +2,7 @@
   <div className="sidebar-container">
       <div className="sidebar-box">
           <h1>About me</h1>
-          <p>I was born in Jacksonville, Florida and currently live in Orange Park, Florida. When i was young I grew a huge passion for technology. I would spend my time playing around with computers, ipods, and other devices learning how they operate. After working a couple jobs in autmotive I quickly learned it wasn't for me and that I needed to surround myself with technology. I started self teaching myself programming and other technologies such as Linux and other operating systems. I am now a year into my growth and I love every minute I spend in font of my computer. </p>
+          <p>My name is Tyler and I love development, engineering, and working with people to solve everyday problems. I have worked in numerous customer-service-oriented jobs and a few technical skilled jobs, such as; Website development, user interface design, backend development, etc. I mostly enjoy programming and working within command-line interfaces. I've worked with businesses that use slack, discord, zoom, and other software. I am very familiar with Linux (Arch, Redhat, and Debian), Mac OS-X, and Windows.</p>
       </div>
       <div className="sidebar-box">
           <h1>Skills</h1>
@@ -13,8 +13,10 @@
               <li>Vue</li>
               <li>NodeJS</li>
               <li>Express</li>
+              <li>SQLite</li>
               <li>GNU/Linux</li>
               <li>Adobe Software</li>
+              <li>HTML5 / CSS3</li>
           </ul>
       </div>
       <div className="sidebar-box">

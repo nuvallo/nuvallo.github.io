@@ -28,19 +28,19 @@ export default {
         title: 'Developer / Laborer',
         job: 'Just Smash It',
         date: 'since December 2019',
-        description: 'I have created their entire website with React JS. I also worked as a laborer at Just Smash It.'
+        description: 'Hired to create the entire front-end website with ReactJS and Material-UI.'
       },{
         id: 2,
         title: "Sales associate",
         job: 'AutoZone',
         date: 'September 2018 - August 2019',
-        description: 'I worked as a sales associate at AutoZone!'
+        description: 'Part time sales associate at AutoZone!'
       },{
         id: 3,
         title: 'Sales associate',
         job: 'Miller Automotive Group',
         date: 'May 2016 - August 2018',
-        description: 'I maintained the vehicles exterior and interior and other maintenance.'
+        description: 'Hired on as a sales associate for selling cars and keeping up with the maintenance of each vehicle.'
       }],
     this.education = [{
         id: 1,
@@ -51,14 +51,14 @@ export default {
     this.projects = [{
         id: 1,
         title: 'Just Smash It',
-        framework: 'ReactJS, Material-UI',
-        description: 'Just Smash It Rage Rooms was my first client to build a front end website with React that was responsive for mobile, ipad, and desktop.'
+        framework: 'ReactJS and Material-UI',
+        description: 'Just Smash It Rage Rooms hired me to build a front-end website with React that was responsive for mobile, tablet, and desktop view.'
       },
       {
         id: 2,
         title: 'Resume',
         framework: 'VueJS',
-        description: 'Created my entire resume front end using vue.'
+        description: 'Created my entire resume front-end using vue.'
       }]
   },
   name: 'App',
